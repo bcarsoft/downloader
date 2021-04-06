@@ -5,7 +5,7 @@ class SingMessage:
     """Singleton Message.
 
     Author:
-        liverp
+        bcarsoft
     """
 
     _instance = None
