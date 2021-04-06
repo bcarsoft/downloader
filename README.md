@@ -34,3 +34,4 @@ Como fica após o download realizado:
 # notas
 Ele possuí um testador de exceções e um singleton para mensagem, 
 onde, uma vez instanciado, pode ser acessado a parti de outra classe.
+A parte de 'File Download' lista os arquivos baixados.

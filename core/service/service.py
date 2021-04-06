@@ -1,5 +1,5 @@
 from core.model.file import File
-from core.downloder.download import Download as DLoad
+from core.download.download import Download as DLoad
 from core.singleton.singmessage import SingMessage as SMsg
 
 

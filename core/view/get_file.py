@@ -197,7 +197,8 @@ class GetFile:
             return
         if self.file.quantity < int(self.spiner_from.get()):
             messagebox.showwarning(title='Problem with first file',
-                                   message='File\'s initial must be greater than quantity')
+                                   message='File\'s initial must be smaller than quantity')
+            return
         self.file.link = self.entry_link.get()
         self.file.way = self.entry_way.get()
         # extra
